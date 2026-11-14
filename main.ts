@@ -20,7 +20,7 @@ const ASSET_FILENAME = "transcontinental.jpg";
 const TARGET_WIDTH = 1024;
 const TARGET_HEIGHT = 1024;
 const BYTE_LIMIT = 1048576;
-const EXPECTED_DIGEST = "29a5cc13eefc1d5b2d189897788f5c0a9d162796b2ab10e87ea1e1661e364aa3";
+const EXPECTED_DIGEST = "1372934db365a49f6126530bdfdfed419af493a877407cbe1e822e13c6a34095";
 
 function parseSofMarkers(raw: Buffer): { width: number; height: number } {
   if (raw.length < 4 || raw[0] !== 0xff || raw[1] !== 0xd8) {
